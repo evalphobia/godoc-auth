@@ -1,10 +1,11 @@
 godoc with Basic Auth
 ========================================
 
-This is 
+This is a godoc program with basic auth.  
+Almost all code from original godoc.  
+(see https://code.google.com/p/go/source/browse/?repo=tools#hg%2Fcmd%2Fgodoc)
 
-
-
+Using enviroment params, It's suitable running on heroku.
  
 Example usage
 -------------
