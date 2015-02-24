@@ -297,6 +297,7 @@ func main() {
 			fs.Fprint(os.Stderr)
 			handler = loggingHandler(handler)
 		}
+		handler = BasicAuthHandler(handler)
 
 		// Initialize search index.
 		if *indexEnabled {
